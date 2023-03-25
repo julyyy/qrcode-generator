@@ -11,11 +11,15 @@ docker run -it --rm -d -p 8080:80 --name web webserver
 ```
 
 实际使用如下方式
+```
 git clone https://github.com/julyyy/qrcode-generator
 cd qrcode-generator/
 docker-compose up -d
-
+```
+然后
+```
 web访问ip:8080
+```
 
 I've also included a Docker Compose file so if you've got Docker Compose, you may also use these commands:
 ```bash
