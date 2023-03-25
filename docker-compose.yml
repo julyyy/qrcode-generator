@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   web:
-    image: bizzycolah/qrcode-generator:latest
+    image: julyyy/qrcode-generator:latest
     ports:
-      - "8080:80"
+      - "8090:80"
